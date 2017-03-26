@@ -1,0 +1,8 @@
+[ 2017-03-26T12:25:24+08:00 ] ::1 /xuedou_cmf/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003169s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005779s ]
+NOTIC: [8] Undefined index: url D:\WWW\xuedou_cmf\application\Common\Controller\AppframeController.class.php 第 22 行.
+

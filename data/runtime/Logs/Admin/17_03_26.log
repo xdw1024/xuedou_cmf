@@ -1,0 +1,65 @@
+[ 2017-03-26T12:06:37+08:00 ] 113.16.137.216 /thcmf/index.php?g=Admin&m=setting&a=site_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001654s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002275s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002314s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cmf_options` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cmf_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cmf_options` SET `option_id`='6',`option_name`='site_options',`option_value`='{\"site_name\":\"\\u96ea\\u8c46AI\\u7f51\",\"site_admin_url_password\":\"\",\"site_tpl\":\"simplebootx\",\"site_adminstyle\":\"bluesky\",\"site_icp\":\"\",\"site_admin_email\":\"qwe@xdw.com\",\"site_tongji\":\"\",\"site_copyright\":\"\",\"site_seo_title\":\"ThinkCMF\\u5185\\u5bb9\\u7ba1\\u7406\\u6846\\u67b6\",\"site_seo_keywords\":\"ThinkCMF,php,\\u5185\\u5bb9\\u7ba1\\u7406\\u6846\\u67b6,cmf,cms,\\u7b80\\u7ea6\\u98ce, simplewind,framework\",\"site_seo_description\":\"ThinkCMF\\u662f\\u7b80\\u7ea6\\u98ce\\u7f51\\u7edc\\u79d1\\u6280\\u53d1\\u5e03\\u7684\\u4e00\\u6b3e\\u7528\\u4e8e\\u5feb\\u901f\\u5f00\\u53d1\\u7684\\u5185\\u5bb9\\u7ba1\\u7406\\u6846\\u67b6\",\"urlmode\":\"0\",\"html_suffix\":\"\",\"comment_time_interval\":\"60\"}' WHERE ( option_name='site_options' ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cmf_options` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cmf_options` WHERE ( option_name='cmf_settings' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `cmf_options` (`option_name`,`option_value`) VALUES ('cmf_settings','{\"banned_usernames\":\"\"}') [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cmf_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0044s ]
+SQL: INSERT INTO `cmf_options` (`option_name`,`option_value`) VALUES ('cdn_settings','{\"cdn_static_root\":\"\"}') [ RunTime:0.0006s ]
+
+[ 2017-03-26T12:07:00+08:00 ] 113.16.137.216 /thcmf/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-03-26T12:07:02+08:00 ] 113.16.137.216 /thcmf/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-03-26T12:07:14+08:00 ] 113.16.137.216 /thcmf/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-03-26T12:07:16+08:00 ] 113.16.137.216 /thcmf/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-03-26T12:07:17+08:00 ] 113.16.137.216 /thcmf/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-03-26T12:07:41+08:00 ] 113.16.137.216 /thcmf/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-03-26T12:25:51+08:00 ] ::1 /xuedou_cmf/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001553s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003042s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001816s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-03-26T12:26:08+08:00 ] ::1 /xuedou_cmf/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002008s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003838s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002020s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002218s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `cmf_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `cmf_role_user` [ RunTime:0.0093s ]
+SQL: SELECT `role_id` FROM cmf_role_user a INNER JOIN cmf_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0008s ]
+SQL: UPDATE `cmf_users` SET `user_login`='admin',`user_pass`='###ddb80e652d03b890aa22349081d89486',`user_nicename`='admin',`user_email`='qwe@xdw.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`='2000-01-01',`signature`=NULL,`last_login_ip`='0.0.0.0',`last_login_time`='2017-03-26 12:26:08',`create_time`='2017-03-26 12:04:14',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0220s ]
+
